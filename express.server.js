@@ -1,7 +1,7 @@
 const express = require( "express" );
 const fs = require( "fs" );
 const server = express();
-const PORT = 4001;
+const PORT = process.env.PORT4001;
 
 server.get( "/", onHomePage );
 
