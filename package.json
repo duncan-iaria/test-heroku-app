@@ -1,0 +1,19 @@
+{
+  "name": "server-side-fun",
+  "version": "0.0.1",
+  "description": "Messin' with server side stuff!",
+  "main": "express.server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "server-side",
+    "express"
+  ],
+  "author": "duncan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
